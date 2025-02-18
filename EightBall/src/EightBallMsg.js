@@ -1,6 +1,7 @@
-import React from "react";
+//default for starting EightBall
 
-const EightBallMsg = [
+// All possible answers for EightBall Message
+const eightBallMsg = [
   { msg: "It is certain.", color: "green" },
   { msg: "It is decidedly so.", color: "green" },
   { msg: "Without a doubt.", color: "green" },
@@ -22,5 +23,8 @@ const EightBallMsg = [
   { msg: "Outlook not so good.", color: "red" },
   { msg: "Very doubtful.", color: "red" },
 ];
+//default for starting EightBall
+export const defaultMsg = { msg: "Think of a Question", color: "black" };
 
-export default EightBallMsg;
+// export EightBallMsg
+export default eightBallMsg;

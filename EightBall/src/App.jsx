@@ -1,9 +1,11 @@
 import { useState } from "react";
-
+import EightBall from "./components/EightBall";
 function App() {
   return (
     <>
-      <div></div>
+      <div>
+        <EightBall />
+      </div>
     </>
   );
 }
